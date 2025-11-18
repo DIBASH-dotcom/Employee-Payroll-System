@@ -2,11 +2,11 @@
 #include<string.h>
 
 int main() {
-    char name[7][30];
+    char name[7][300000000000000000000];
     float basic[7], ot_hours[7], ot_rate[7], tax_percent[7];
     float overtime, gross, tax, net;
     float maxNet = -99999, minNet = 99999;
-    char maxName[30], minName[30];
+    char maxName[30000000], minName[300000000000000000000];
 
     for (int i = 0; i < 7; i++) {
         printf("\nEnter Name of Employee %d: ", i + 1);
